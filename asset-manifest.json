@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/fm-four-card-feature/static/css/main.3bb5176a.chunk.css",
-    "main.js": "/fm-four-card-feature/static/js/main.1c301f16.chunk.js",
-    "main.js.map": "/fm-four-card-feature/static/js/main.1c301f16.chunk.js.map",
+    "main.css": "/fm-four-card-feature/static/css/main.3c8b3095.chunk.css",
+    "main.js": "/fm-four-card-feature/static/js/main.afcca526.chunk.js",
+    "main.js.map": "/fm-four-card-feature/static/js/main.afcca526.chunk.js.map",
     "runtime-main.js": "/fm-four-card-feature/static/js/runtime-main.f9ffc313.js",
     "runtime-main.js.map": "/fm-four-card-feature/static/js/runtime-main.f9ffc313.js.map",
     "static/js/2.a1b96bba.chunk.js": "/fm-four-card-feature/static/js/2.a1b96bba.chunk.js",
     "static/js/2.a1b96bba.chunk.js.map": "/fm-four-card-feature/static/js/2.a1b96bba.chunk.js.map",
     "index.html": "/fm-four-card-feature/index.html",
-    "static/css/main.3bb5176a.chunk.css.map": "/fm-four-card-feature/static/css/main.3bb5176a.chunk.css.map",
+    "static/css/main.3c8b3095.chunk.css.map": "/fm-four-card-feature/static/css/main.3c8b3095.chunk.css.map",
     "static/js/2.a1b96bba.chunk.js.LICENSE.txt": "/fm-four-card-feature/static/js/2.a1b96bba.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f9ffc313.js",
     "static/js/2.a1b96bba.chunk.js",
-    "static/css/main.3bb5176a.chunk.css",
-    "static/js/main.1c301f16.chunk.js"
+    "static/css/main.3c8b3095.chunk.css",
+    "static/js/main.afcca526.chunk.js"
   ]
 }
