@@ -8,13 +8,13 @@ const Card = (props) => {
     if(props.color === "Blue") className.push("card--blue")
 
     return (
-      <section className={`card ${className.join(" ")}`}>
+      <div className={`card ${className.join(" ")}`}>
         <div className="card__info">
           <h2 className="card__info__title">{props.title}</h2>
           <p className="card__info__description">{props.description}</p>
         </div>
         <img src={props.image} alt="" className="card__image"/>
-      </section>
+      </div>
     );
 }
 
