@@ -31,4 +31,4 @@ $base-font-size: rem(15) !default;
 $base-border-radius: rem(8) !default;
 
 // Box-Shadow
-$base-box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+$base-box-shadow: 0px 10px 25px rgba($blue, 0.1), 0px 10px 25px rgba($blue, 0.1);

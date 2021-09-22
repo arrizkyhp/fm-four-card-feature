@@ -98,8 +98,8 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   max-width: 21.9375rem;
-  -webkit-box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 10px 25px rgba(84, 158, 242, 0.1), 0px 10px 25px rgba(84, 158, 242, 0.1);
+          box-shadow: 0px 10px 25px rgba(84, 158, 242, 0.1), 0px 10px 25px rgba(84, 158, 242, 0.1);
   border-radius: 0.5rem;
   position: relative;
   overflow: hidden;
@@ -109,7 +109,7 @@ body {
 }
 .card__info h2 {
   color: #4c4e61;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   margin-bottom: 0.75rem;
 }
 .card__info p {
@@ -211,7 +211,7 @@ header .header__description {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 1.25rem;
+  gap: 1.875rem;
   grid-template-areas: "supervisor builder calculator" "supervisor karma calculator";
   margin-bottom: 4.375rem;
 }
