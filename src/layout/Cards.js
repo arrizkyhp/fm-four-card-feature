@@ -3,7 +3,7 @@ import Card from "components/Card";
 const Cards = ({ data }) => {
 
     return (
-      <main className="cards">
+      <section className="cards">
         {data.map((e) => {
           return <Card
             key={`card-${e.title}`}
@@ -13,7 +13,7 @@ const Cards = ({ data }) => {
             image={e.imageUrl}
           />
         })}
-      </main>
+      </section>
     );
 }
 

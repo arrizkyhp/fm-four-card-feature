@@ -8,7 +8,7 @@ import Footer from 'layout/Footer';
 export default function Home() {
     return (
       <>
-      <main className="container">
+      <main>
         <Header />
         <Cards data={apiData.card} />
       </main>
