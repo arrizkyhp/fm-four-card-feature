@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/fm-four-card-feature/static/css/main.3c8b3095.chunk.css",
-    "main.js": "/fm-four-card-feature/static/js/main.afcca526.chunk.js",
-    "main.js.map": "/fm-four-card-feature/static/js/main.afcca526.chunk.js.map",
+    "main.js": "/fm-four-card-feature/static/js/main.660aa11b.chunk.js",
+    "main.js.map": "/fm-four-card-feature/static/js/main.660aa11b.chunk.js.map",
     "runtime-main.js": "/fm-four-card-feature/static/js/runtime-main.f9ffc313.js",
     "runtime-main.js.map": "/fm-four-card-feature/static/js/runtime-main.f9ffc313.js.map",
     "static/js/2.a1b96bba.chunk.js": "/fm-four-card-feature/static/js/2.a1b96bba.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.f9ffc313.js",
     "static/js/2.a1b96bba.chunk.js",
     "static/css/main.3c8b3095.chunk.css",
-    "static/js/main.afcca526.chunk.js"
+    "static/js/main.660aa11b.chunk.js"
   ]
 }
