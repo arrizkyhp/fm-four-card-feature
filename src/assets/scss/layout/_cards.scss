@@ -1,0 +1,42 @@
+@use "../utils" as *;
+
+.cards {
+  @include grid-centering();
+  gap: rem(20);
+  grid-template-areas:
+    "supervisor builder calculator"
+    "supervisor karma calculator";
+  margin-bottom: rem(70);
+
+  .card {
+    &:nth-child(1) {
+      grid-area: supervisor;
+    }
+
+    &:nth-child(2) {
+      grid-area: builder;
+    }
+
+    &:nth-child(3) {
+      grid-area: karma;
+    }
+
+    &:nth-child(4) {
+      grid-area: calculator;
+    }
+  }
+
+  @include breakpoint-max(md) {
+    grid-template-areas:
+      "supervisor builder "
+      "karma calculator ";
+  }
+
+  @include breakpoint-max(sm) {
+    grid-template-areas:
+      "supervisor"
+      "builder "
+      "karma "
+      "calculator ";
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "card": [
+    {
+      "_id": "bdg21sep2021article01",
+      "title": "Supervisor",
+      "description": "Monitors activity to identify project roadblocks",
+      "imageUrl": "images/icon-supervisor.svg",
+      "color": "Cyan"
+    },
+    {
+      "_id": "bdg21sep2021article02",
+      "title": "Team Builder",
+      "description": "Scans our talent network to create the optimal team for your project",
+      "imageUrl": "images/icon-team-builder.svg",
+      "color": "Red"
+    },
+    {
+      "_id": "bdg21sep2021article03",
+      "title": "Karma",
+      "description": "Regularly evaluates our talent to ensure quality",
+      "imageUrl": "images/icon-karma.svg",
+      "color": "Orange"
+    },
+    {
+      "_id": "bdg21sep2021article04",
+      "title": "Calculator",
+      "description": "Uses data from past projects to provide better delivery estimates",
+      "imageUrl": "images/icon-calculator.svg",
+      "color": "Blue"
+    }
+  ]
+}

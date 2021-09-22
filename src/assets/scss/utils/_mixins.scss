@@ -1,0 +1,25 @@
+@use "functions" as *;
+@use "variables" as *;
+
+@mixin card-color($color) {
+  content: "";
+  width: 100%;
+  height: rem(15);
+  position: absolute;
+  top: rem(-10);
+  left: 0;
+  background-color: $color;
+}
+
+@mixin flex-centering() {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin grid-centering() {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,29 @@
+@use "../utils" as *;
+
+header {
+  text-align: center;
+  max-width: rem(529);
+  margin-bottom: rem(50);
+
+  .header__title {
+    font-size: rem(36);
+    color: $dark-blue;
+    margin-bottom: rem(20);
+
+    span {
+      font-weight: 200;
+    }
+
+    @include breakpoint-max(sm) {
+      font-size: rem(26);
+    }
+  }
+
+  .header__description {
+    font-size: $base-font-size;
+    color: $gray-blue;
+    @include breakpoint-max(sm) {
+      font-size: rem(16);
+    }
+  }
+}

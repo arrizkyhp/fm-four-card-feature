@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+.text-red {
+  color: #ea5353;
+}
+
+.bg-red {
+  background-color: #ea5353;
+}
+
+.text-cyan {
+  color: #45d3d3;
+}
+
+.bg-cyan {
+  background-color: #45d3d3;
+}
+
+.text-orange {
+  color: #fcaf4a;
+}
+
+.bg-orange {
+  background-color: #fcaf4a;
+}
+
+.text-blue {
+  color: #549ef2;
+}
+
+.bg-blue {
+  background-color: #549ef2;
+}
+
+.text-dark-blue {
+  color: #4c4e61;
+}
+
+.bg-dark-blue {
+  background-color: #4c4e61;
+}
+
+.text-gray-blue {
+  color: #a3a5ae;
+}
+
+.bg-gray-blue {
+  background-color: #a3a5ae;
+}
+
+.text-light-gray {
+  color: #fafafa;
+}
+
+.bg-light-gray {
+  background-color: #fafafa;
+}
+
+html {
+  font-style: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  color: inherit;
+  margin: 0;
+  bottom: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  max-width: 100vw;
+  min-height: 100vh;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  background-color: #fafafa;
+  position: relative;
+}
+
+.card {
+  padding: 1.875rem 2.1875rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 21.9375rem;
+  -webkit-box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  position: relative;
+  overflow: hidden;
+}
+.card__info {
+  margin-bottom: 2.5rem;
+}
+.card__info h1 {
+  color: #4c4e61;
+  font-size: 1.125rem;
+  margin-bottom: 0.75rem;
+}
+.card__info p {
+  font-weight: 400;
+  font-size: 0.8125rem;
+  color: #a3a5ae;
+}
+@media (max-width: 650px) {
+  .card__info p {
+    font-size: 0.9375rem;
+  }
+}
+.card img {
+  margin-left: auto;
+  width: 64px;
+}
+.card--cyan::after {
+  content: "";
+  width: 100%;
+  height: 0.9375rem;
+  position: absolute;
+  top: -0.625rem;
+  left: 0;
+  background-color: #45d3d3;
+}
+.card--red::after {
+  content: "";
+  width: 100%;
+  height: 0.9375rem;
+  position: absolute;
+  top: -0.625rem;
+  left: 0;
+  background-color: #ea5353;
+}
+.card--orange::after {
+  content: "";
+  width: 100%;
+  height: 0.9375rem;
+  position: absolute;
+  top: -0.625rem;
+  left: 0;
+  background-color: #fcaf4a;
+}
+.card--blue::after {
+  content: "";
+  width: 100%;
+  height: 0.9375rem;
+  position: absolute;
+  top: -0.625rem;
+  left: 0;
+  background-color: #549ef2;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.attribution a {
+  color: #3e52a3;
+}
+
+header {
+  text-align: center;
+  max-width: 33.0625rem;
+  margin-bottom: 3.125rem;
+}
+header .header__title {
+  font-size: 2.25rem;
+  color: #4c4e61;
+  margin-bottom: 1.25rem;
+}
+header .header__title span {
+  font-weight: 200;
+}
+@media (max-width: 650px) {
+  header .header__title {
+    font-size: 1.625rem;
+  }
+}
+header .header__description {
+  font-size: 0.9375rem;
+  color: #a3a5ae;
+}
+@media (max-width: 650px) {
+  header .header__description {
+    font-size: 1rem;
+  }
+}
+
+.cards {
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1.25rem;
+  grid-template-areas: "supervisor builder calculator" "supervisor karma calculator";
+  margin-bottom: 4.375rem;
+}
+.cards .card:nth-child(1) {
+  grid-area: supervisor;
+}
+.cards .card:nth-child(2) {
+  grid-area: builder;
+}
+.cards .card:nth-child(3) {
+  grid-area: karma;
+}
+.cards .card:nth-child(4) {
+  grid-area: calculator;
+}
+@media (max-width: 720px) {
+  .cards {
+    grid-template-areas: "supervisor builder " "karma calculator ";
+  }
+}
+@media (max-width: 650px) {
+  .cards {
+    grid-template-areas: "supervisor" "builder " "karma " "calculator ";
+  }
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 4.375rem 1.25rem 0 1.25rem;
+  padding-bottom: 1.25rem;
+}
+/*# sourceMappingURL=style.css.map */
